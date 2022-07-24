@@ -28,12 +28,25 @@
         li a:hover {
           background-color: #111111;
         }
+
+        p {
+          font-family: futura;
+        }
+
+        h2 {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 20px;
+          text-decoration: none;
+          font-family:futura;
+          font-size: 25px;
+        }
         </style>
     </head>
         <body>
-
+          <img src="/images/logo.jpg" alt="Rooted" width="50" height="50">
         <ul>
-          <li><a href="#home" img src="/Images/logo.jpg" alt="Lolami Logo" width="50" height="50"></a></li>
           <li><a href="#home">Lolami Lola - Charles</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -57,12 +70,13 @@
             img{
                 text-align: center;
             }
+
     </style>
     <body>
         <header>
             <h1></h1>
             <section class="heroimg">
-                <img src="/images/headshot.jpg" alt="headshot hero image" width="180" height="180">
+                <img src="/images/headshot.png" alt="headshot hero image" width="250" height="250" class="headshot">
                 <p class="welcome message"> Hello 👋🏿 my name is Lolami
                 </p>
                 <p class="intro">I am a UX designer with a passion for leveraging data to guide smart decision making and fiscal outcomes
@@ -70,12 +84,36 @@
                 <button>Download Resume</button>
             </section>
             <h2>Projects</h2>
-
-            </nav>
+          <div class="flex-container">
+            <section class="rooted preview">
+              <img src="/images/Rooted_preview.png" alt="Rooted" width="200" height="200">
+              <p class="rooted preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+              </p>
+            </section>
+            <section class="cs scholars preview">
+              <img src="/images/CS_scholars_preview.jpg" alt="Rooted" width="200" height="200">
+              <p class="cs scholars preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+              </p>
+            </section>
+            <section class="project 3 placeholder">
+              <img src="/images/placeholder.png" alt="Rooted" width="200" height="200">
+              <p class="cs scholars preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+              </p>
+            </section>
+          </div>
         </header>
-
+        
+        <section>
+          <img src="/images/logo.jpg" alt="Rooted" width="150" height="150">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+          
+        </section>
 
     </body>
+    
 
 
 
