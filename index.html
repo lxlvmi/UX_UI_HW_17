@@ -2,7 +2,10 @@
 
 <html>
     <head>
-        <style>
+
+        <link rel="stylesheet" href="style.css">
+
+      <style>
         ul {
           list-style-type: none;
           margin: 0;
@@ -29,8 +32,9 @@
           background-color: #111111;
         }
 
-        p {
+        .p {
           font-family: futura;
+          font-size: 33px;
         }
 
         h2 {
@@ -42,10 +46,11 @@
           font-family:futura;
           font-size: 25px;
         }
-        </style>
+      </style>
+
     </head>
         <body>
-          <img src="/images/logo.jpg" alt="Rooted" width="50" height="50">
+          <img src="/images/logo.jpg" alt="Rooted" width="50" height="50" class="logo-small">
         <ul>
           <li><a href="#home">Lolami Lola - Charles</a></li>
           <li><a href="#about">About</a></li>
@@ -56,20 +61,51 @@
         </body>
     
     <style>
-            h1{
+            .h1{
                 font-size: 50px;
+                text-align: center;
+                font-family: futura;
             }
-            p{
+            .preview_text{
+                font-size: 20px;
+                text-align:center;
+                font-family: futura;
+            }
+            .welcome_message{
                 font-size: 33px;
                 text-align:center;
+                font-family: futura;
             }
-            h2{
+            .intro{
+                font-size: 33px;
+                text-align:center;
+                font-family: futura;
+            }
+            .headshot{
+              display: flex;
+              justify-content: flex-end;
+            }
+            .h2{
                 text-align:center;
                 font-size: 25px;
-            }
-            img{
+                font-family: futura;
                 text-align: center;
             }
+            .flexbox1 {
+                display: flex;
+                background-color: white;
+                align-items: center;
+                justify-content: center;
+                }
+
+            .flexbox1 > div {
+                background-color: #FFFFFF;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                align-items: center;
+                justify-content: center;
+              }
 
     </style>
     <body>
@@ -77,29 +113,29 @@
             <h1></h1>
             <section class="heroimg">
                 <img src="/images/headshot.png" alt="headshot hero image" width="250" height="250" class="headshot">
-                <p class="welcome message"> Hello 👋🏿 my name is Lolami
+                <p class="welcome_message"> Hello 👋🏿 my name is Lolami
                 </p>
-                <p class="intro">I am a UX designer with a passion for leveraging data to guide smart decision making and fiscal outcomes
+                <p class="intro">I am a UX Designer with a passion for leveraging data to guide smart decision making and fiscal outcomes
                 </p>
                 <button>Download Resume</button>
             </section>
             <h2>Projects</h2>
-          <div class="flex-container">
-            <section class="rooted preview">
-              <img src="/images/Rooted_preview.png" alt="Rooted" width="200" height="200">
-              <p class="rooted preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-              </p>
-            </section>
-            <section class="cs scholars preview">
-              <img src="/images/CS_scholars_preview.jpg" alt="Rooted" width="200" height="200">
-              <p class="cs scholars preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-              </p>
-            </section>
-            <section class="project 3 placeholder">
-              <img src="/images/placeholder.png" alt="Rooted" width="200" height="200">
-              <p class="cs scholars preview">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-              </p>
-            </section>
+          <div class="flexbox1">
+              <div class="rooted preview">
+                <img src="/images/Rooted_preview.png" alt="Rooted" width="300" height="300">
+                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+                </div>
+              </section>
+              <div class="cs scholars preview">
+                <img src="/images/CS_scholars_preview.jpg" alt="Chicago Scholars" width="300" height="300">
+                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+                </div>
+              </section>
+              <div class="project 3 placeholder">
+                <img src="/images/placeholder.png" alt="placeholder" width="300" height="300">
+                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
+                </div>
+              </section> 
           </div>
         </header>
         
@@ -113,20 +149,6 @@
         </section>
 
     </body>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
