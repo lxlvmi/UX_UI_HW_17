@@ -1,15 +1,143 @@
-.headshot {
-    display: flex;
-    justify-content: center;
-  }
 
-.Flexbox1 {
-    display: flex;
-    justify-content: flex-end;
-  }
+      body {
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      .welcome_message, 
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
 
-.rooted_preview {
-    display: flex;
-    justify-content: flex-end;
-}
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-family:futura;
+        font-size: 25px;
+      }
+      
+      li a:hover {
+        background-color: #E86C56;
+      }
 
+      p {
+        font-family: futura;
+        font-size: 33px;
+      }
+
+      h2 {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-family:futura;
+        font-size: 25px;
+      }
+      .smalllogo{
+        background-color: white;
+        width: 10%;
+        display: inline-block;
+        margin-left: 50px;
+      }
+      .flexbox2 {
+        display: flex;
+              background-color: white;
+              align-items: center;
+              justify-content: center;
+              width: 85%;
+              display: inline-block;
+              margin: 10px auto;
+      }
+      .navbar {
+        display: flex;
+              background-color: white;
+              align-items: center;
+              justify-content: center;
+      }
+      h1{
+          font-size: 50px;
+          text-align: center;
+          font-family: futura;
+      }
+      .preview_text{
+          font-size: 20px;
+          text-align:center;
+          font-family: futura;
+      }
+      .welcome_message, .intro{
+          font-size: 33px;
+          text-align:center;
+          font-family: futura;
+          width: 50%;
+          margin: 50px auto;
+          
+      }
+
+      h2{
+          text-align:center;
+          font-size: 25px;
+          font-family: futura;
+          text-align: center;
+      }
+      .flexbox1 {
+          display: flex;
+          background-color: white;
+          align-items: center;
+          justify-content: center;
+          }
+
+      .flexbox1 > div {
+          background-color: white;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .projecttext {
+          font-family: futura;
+          margin: 50px;
+          padding: 20px;
+          font-size: 25px;
+        }
+
+        .headshot, .resumebutton, .projectimage {
+          display: flex;
+          justify-content: center;
+        }
+
+        .footer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .resumebutton button {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            font-weight: bold;
+        }
+.footercontent{
+        border: solid 1px black;
+        display: block;
+        float: left;
+        height: 100px;
+        list-style-type: none;
+        margin: 10px;
+        vertical-align: middle;
+        }

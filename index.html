@@ -1,154 +1,106 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
 
-        <link rel="stylesheet" href="style.css">
+<head>
 
-      <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #ffffff;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: black;
-          text-align: center;
-          padding: 20px;
-          text-decoration: none;
-          font-family:futura;
-          font-size: 25px;
-        }
-        
-        li a:hover {
-          background-color: #111111;
-        }
+  <link rel="stylesheet" href="CSS/style.css">
 
-        .p {
-          font-family: futura;
-          font-size: 33px;
-        }
+</head>
 
-        h2 {
-          display: block;
-          color: black;
-          text-align: center;
-          padding: 20px;
-          text-decoration: none;
-          font-family:futura;
-          font-size: 25px;
-        }
-      </style>
+<body>
 
-    </head>
-        <body>
-          <img src="/images/logo.jpg" alt="Rooted" width="50" height="50" class="logo-small">
+  <div class="smalllogo">
+    <img src="/images/logo.jpg" alt="Rooted" width="50" height="50" class="logo-small">
+  </div>
+  
+  <div class="flexbox2">
+
+    <div class="navbar">
+      <ul>
+
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <header>
+    <h1></h1>
+    <section class="heroimg">
+
+      <div class="headshot">
+        <img src="/images/headshot.png" alt="headshot hero image" width="250" height="250">
+      </div>
+      <p class="welcome_message"> Hello 👋🏿 my name is Lolami
+      </p>
+      <p class="intro">I am a UX Designer with a passion for leveraging data to guide smart decision making and fiscal
+        outcomes
+      </p>
+      <div class="resumebutton">
+        <button>Download Resume</button>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+
+      <div class="flexbox1">
+
+        <div class="rooted_preview">
+          <div class="projectimage">
+            <img src="/images/Rooted_preview.png" alt="Rooted" width="300" height="300" class="project image">
+          </div>
+          <div class="projecttext">
+            Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English
+            to emphasise design elements over content
+          </div>
+        </div>
+
+        <div class="CS_preview">
+          <div class="projectimage">
+            <img src="/images/CS_preview.png" alt="Rooted" width="300" height="300" class="project image">
+          </div>
+          <div class="projecttext">
+            Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English
+            to emphasise design elements over content
+          </div>
+        </div>
+
+        <div class="placeholder">
+          <div class="projectimage">
+            <img src="/images/placeholder.png" alt="Rooted" width="300" height="300" class="project image">
+          </div>
+          <div class="projecttext">
+            Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English
+            to emphasise design elements over content
+          </div>
+        </div>
+
+    </section>
+    </div>
+
+
+
+  </header>
+
+  <section>
+    <div class="footer">
+      <div class="footerlogo">
+        <img src="/images/logo.jpg" alt="Rooted" width="150" height="175">
+      </div>
+      <div class="footercontent">
         <ul>
-          <li><a href="#home">Lolami Lola - Charles</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
           <li><a href="#resume">Resume</a></li>
         </ul>
-        
-        </body>
-    
-    <style>
-            .h1{
-                font-size: 50px;
-                text-align: center;
-                font-family: futura;
-            }
-            .preview_text{
-                font-size: 20px;
-                text-align:center;
-                font-family: futura;
-            }
-            .welcome_message{
-                font-size: 33px;
-                text-align:center;
-                font-family: futura;
-            }
-            .intro{
-                font-size: 33px;
-                text-align:center;
-                font-family: futura;
-            }
-            .headshot{
-              display: flex;
-              justify-content: flex-end;
-            }
-            .h2{
-                text-align:center;
-                font-size: 25px;
-                font-family: futura;
-                text-align: center;
-            }
-            .flexbox1 {
-                display: flex;
-                background-color: white;
-                align-items: center;
-                justify-content: center;
-                }
+      </div>
+    </div>
+  </section>
 
-            .flexbox1 > div {
-                background-color: #FFFFFF;
-                margin: 10px;
-                padding: 20px;
-                font-size: 30px;
-                align-items: center;
-                justify-content: center;
-              }
-
-    </style>
-    <body>
-        <header>
-            <h1></h1>
-            <section class="heroimg">
-                <img src="/images/headshot.png" alt="headshot hero image" width="250" height="250" class="headshot">
-                <p class="welcome_message"> Hello 👋🏿 my name is Lolami
-                </p>
-                <p class="intro">I am a UX Designer with a passion for leveraging data to guide smart decision making and fiscal outcomes
-                </p>
-                <button>Download Resume</button>
-            </section>
-            <h2>Projects</h2>
-          <div class="flexbox1">
-              <div class="rooted preview">
-                <img src="/images/Rooted_preview.png" alt="Rooted" width="300" height="300">
-                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-                </div>
-              </section>
-              <div class="cs scholars preview">
-                <img src="/images/CS_scholars_preview.jpg" alt="Chicago Scholars" width="300" height="300">
-                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-                </div>
-              </section>
-              <div class="project 3 placeholder">
-                <img src="/images/placeholder.png" alt="placeholder" width="300" height="300">
-                <p class="preview_text">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
-                </div>
-              </section> 
-          </div>
-        </header>
-        
-        <section>
-          <img src="/images/logo.jpg" alt="Rooted" width="150" height="150">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
-          </ul>
-          
-        </section>
-
-    </body>
+</body>
 
 
 
