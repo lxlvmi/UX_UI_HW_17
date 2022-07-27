@@ -77,10 +77,10 @@
           font-family: futura;
       }
       .welcome_message, .intro{
-          font-size: 33px;
+          font-size: 60px;
           text-align:center;
           font-family: futura;
-          width: 50%;
+          width: 75%;
           margin: 50px auto;
           
       }
@@ -119,6 +119,11 @@
           justify-content: center;
         }
 
+        .headshot {
+          margin: 125px;
+
+        }
+
         .footer {
           display: flex;
           align-items: center;
@@ -131,4 +136,52 @@
             font-size: 20px;
             padding: 15px;
             font-weight: bold;
+            margin: 70px;
         }
+      
+        /* hover state code */ 
+        .projectimage {
+         position: relative;
+        }
+        
+        .project_image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        /* update background color and shape*/
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #008bba0b;
+          border-radius: 90%;
+        }
+        
+        .projectimage:hover .overlay {
+          opacity: 1;
+        }
+        
+        .hover_text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+           /* hover state code */ 
+
+        .projects{
+            margin: 300px;
+
+           }
